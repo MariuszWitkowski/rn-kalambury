@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "type": "animal",
+      "text": "Krowa"
+    },
+    {
+      "type": "animal",
+      "text": "Koń"
+    },
+    {
+      "type": "country",
+      "text": "Poland"
+    },
+    {
+      "type": "country",
+      "text": "Hungary"
+    },
+    {
+      "type": "country",
+      "text": "Amsterdam"
+    },
+    {
+      "type": "food",
+      "text": "Kebab"
+    },
+    {
+      "type": "food",
+      "text": "Burger"
+    }
+  ]
+}
