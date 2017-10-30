@@ -33,6 +33,11 @@ const styles = StyleSheet.create({
   fullWidthButtonText: {
     fontSize: 24,
     color: 'white'
+  },
+  rotateButtonText: {
+    fontSize: 48,
+    color: 'white',
+    transform: [{ rotate: '90deg'}]
   }
 })
 
@@ -84,7 +89,7 @@ class CategoryItem extends React.Component {
       <View style={isOpen ? styles.full : styles.container}>
         {
           <TouchableHighlight style={styles.fullWidthButton} onPress={this.openCategory.bind(this)}>
-            <Text style={styles.fullWidthButtonText}>{currentText}</Text>
+            <Text style={isOpen ? styles.rotateButtonText : styles.fullWidthButtonText}>{currentText}</Text>
           </TouchableHighlight>
         }
       </View>
